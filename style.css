@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* =============== form =============== */
+
+.form {
+  border: 2px solid #5f8df0;
+  background-color: #e9edf6;
+  border-radius: 25px;
+  margin: 120px;
+  padding: 48px;
+}
+
+.fieldset_1 {
+  border: 1px solid #5f8df0;
+  padding: 16px 0 24px 32px;
+  border-radius: 12px;
+}
+
+.legend {
+  margin: 16px;
+  padding: 0 12px;
+}
+
+.label {
+  margin-top: 8px;
+  display: inline-block;
+  width: 130px;
+}
+
+.radio {
+  width: 50px;
+}
+
+.input {
+  margin-top: 8px;
+  width: 200px;
+  border: 1px solid #7e7e7e;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.input:valid {
+  border: 2px solid rgb(126, 240, 126);
+}
+
+.input:invalid {
+  border: 2px solid rgb(242, 151, 151);
+}
+
+#submit {
+  background-color: #234ca4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  margin-top: 32px;
+  padding: 8px 16px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js_Form</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <form action="#" class="form" autocomplete="off">
+      <fieldset class="fieldset_1">
+        <legend class="legend">Marjan JS Form</legend>
+
+        <label for="fname" class="label">First Name:</label>
+        <input
+          id="fname"
+          type="text"
+          name="fname"
+          class="input"
+          pattern="^[a-z]+$"
+          title="only lowercase letters"
+          autocomplete="on"
+          placeholder="marjan"
+          required
+        /><br />
+
+        <label for="lastname" class="label">Last Name:</label>
+        <input
+          id="lastname"
+          type="text"
+          name="lastname"
+          class="input"
+          autocomplete="on"
+          placeholder="tajik"
+        /><br />
+
+        <label for="email" class="label">Email:</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          class="input"
+          placeholder="m@t"
+        /><br />
+
+        <label for="tel" class="label">Tel:</label>
+        <input
+          id="tel"
+          type="tel"
+          name="tel"
+          class="input"
+          placeholder="1234567"
+        /><br />
+
+        <label for="password" class="label">Password:</label>
+        <input
+          id="password"
+          type="password"
+          name="password"
+          class="input"
+        /><br />
+
+        <label for="new_password" class="label">New Password:</label>
+        <input
+          id="new_password"
+          type="password"
+          name="new_password"
+          class="input"
+          minlength="6"
+          maxlength="9"
+          title="6 through 9 digits"
+          required
+        /><br />
+
+        <label for="organozation" class="label">Organozation:</label>
+        <input
+          id="organozation"
+          type="text"
+          name="organozation"
+          class="input"
+          autocomplete="off"
+          placeholder="Aasaam"
+        /><br />
+
+        <label for="age" class="label">Age:</label>
+        <input
+          id="age"
+          type="text"
+          name="age"
+          class="input"
+          placeholder="20"
+        /><br />
+
+        <label class="label">Gender:</label>
+
+        <input id="female" type="radio" name="gender" value="1" />
+        <label for="female" class="radio">Female</label>
+
+        <input id="male" type="radio" name="gender" value="2" />
+        <label for="male" class="radio">Male</label><br />
+
+        <input id="submit" type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
